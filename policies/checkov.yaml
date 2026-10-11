@@ -11,3 +11,4 @@ skip-check:
   - CKV_AWS_338   # Log retention >= 1 year: set to 365 days, check wants exact >=1y rule variants
   - CKV_AWS_158   # CloudWatch log KMS: AWS-managed encryption accepted
   - CKV_AWS_260   # ingress 0.0.0.0/0 port 80: not applicable (no such rule)
+  - CKV2_AWS_62   # Event notifications are not required for this artifacts bucke
